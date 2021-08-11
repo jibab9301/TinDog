@@ -1,0 +1,184 @@
+
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+}
+
+/* Heading */
+
+.big-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+#title{
+  text-align: left
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.fab{
+  margin-right: 5px;
+}
+
+/* Color Section */
+
+.white-section{
+  background-color: #fff;
+  color: black;
+}
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+#features{
+  padding: 7% 15%;
+  position: relative;
+}
+
+.container-feature{
+  padding: 3% 1% 7%;
+}
+
+.feature-box{
+  font-size: 1.5rem;
+}
+
+.feature-box{
+  padding: 2%;
+}
+
+.row-2{
+  margin: 20px;
+}
+
+.icon{
+  color: #ef8172;
+  margin: 1rem;
+
+}
+
+/* Testimonials Section */
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  marign: 20px 2px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* Call to Action ection  */
+
+#cta{
+  padding:7% 15%;
+}
+
+/* Footer Section */
+
+#footer{
+  padding:7% 15%;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px){
+
+  #title{
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0)
+  }
+}
